@@ -10,7 +10,7 @@ This CLI tool fetches research papers from PubMed based on a given query and fil
         pip install poetry
 
 2.  Clone the repository:
-        git clone <repo-url>
+        git clone (https://github.com/sharath816/Pubmed_fetcher.git)
         cd pubmed_fetcher
 
 3.  Install dependencies:
