@@ -28,3 +28,5 @@ Automates bulk extraction and handles large datasets efficiently using Python.
 
 3.  Install dependencies:
         poetry install
+
+4.  Run the Python code.
