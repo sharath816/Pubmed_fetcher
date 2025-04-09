@@ -3,7 +3,7 @@
 ## Description
 This CLI tool fetches research papers from PubMed based on a given query and filters out those affiliated with pharmaceutical or biotech companies.
 
-Tech Stack: Python, CLI, XML
+## Tech Stack: Python, CLI, XML
 
 A CLI tool to fetch research papers from PubMed based on user queries.
 
