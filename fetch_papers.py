@@ -23,7 +23,7 @@ def fetch_paper_ids(query: str) -> List[str]:
 def fetch_paper_details(pubmed_ids: List[str]) -> List[Dict[str, str]]:
     """Fetch paper details from PubMed using a list of PubMed IDs."""
     if not pubmed_ids:
-        return []
+        return [] #if id is not present
 
     params = {"db": "pubmed", "id": ",".join(pubmed_ids), "retmode": "xml"}
     response = requests.get(PUBMED_FETCH_URL, params=params)
